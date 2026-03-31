@@ -2,7 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar px-6 md:px-32">
+        
+        <div className="navbar px-6 md:px-32 shadow-sm">
             <div className="navbar-start">
                 <h1 className='text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h1>
               
@@ -20,9 +21,10 @@ const Navbar = () => {
             <div className="navbar-end gap-3">
                 <img src="src\assets\products\shopping-cart.png" alt="" />
                 <p className='font-semibold'>Login</p>
-                <a className="btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
+                <button className="btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</button>
             </div>
         </div>
+
     );
 };
 
