@@ -1,13 +1,13 @@
 
 import './App.css'
+import Navbar from './navbar'
 
 
 function App() {
 
   return (
     <>
-      <h2 className='text-red-600 text-center bg-green-300 '>Hello</h2>
-      <button className='btn btn-primary'>test</button>
+      <Navbar></Navbar>
       
     </>
   )
