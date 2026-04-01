@@ -46,7 +46,7 @@ const Banner = () => {
 
 
          </div>
-         <div className='flex justify-evenly bg-linear-to-r from-[#4F39F6] to-[#9514FA]  py-10'>
+         <div className='flex justify-evenly bg-linear-to-r from-[#4F39F6] to-[#9514FA]  py-10 mb-20'>
 
                  <div className="text-center">
                      <h1 className="text-[60px] font-bold text-white">50K+</h1>

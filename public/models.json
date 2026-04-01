@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-optimized resumes in minutes with AI assistance.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ modern templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn Profile Optimizer",
+    "description": "Turn your LinkedIn profile into a powerful job magnet with AI.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "AI headline & summary",
+      "Keyword optimization",
+      "Profile strength score",
+      "LinkedIn banner maker",
+      "Real-time suggestions"
+    ],
+    "icon": "🔗"
+  },
+  {
+    "id": 3,
+    "name": "Career Success Bundle",
+    "description": "Complete package: Resume + Cover Letter + LinkedIn optimization.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Everything in Resume Pro",
+      "Everything in LinkedIn Optimizer",
+      "Unlimited cover letters",
+      "Job application tracker",
+      "Priority support"
+    ],
+    "icon": "🎯"
+  },
+  {
+    "id": 4,
+    "name": "Job Application Tracker",
+    "description": "Never lose track of your job applications again.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited applications",
+      "Status tracking",
+      "Interview reminders",
+      "Application analytics",
+      "Notes & documents"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "name": "AI Interview Coach",
+    "description": "Practice interviews with AI that acts like real recruiters.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "1000+ real interview questions",
+      "Industry-specific coaching",
+      "Instant feedback & scoring",
+      "Mock video interviews",
+      "Progress tracking"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "Annual Premium Plan",
+    "description": "Get full access to all tools with maximum savings.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "All tools included",
+      "Unlimited usage",
+      "Advanced AI features",
+      "Team sharing (up to 3)",
+      "2 months free"
+    ],
+    "icon": "🌟"
+  },
+  {
+    "id": 7,
+    "name": "Cover Letter Master",
+    "description": "Write highly personalized cover letters that get noticed.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI-powered writing",
+      "Tailored to job description",
+      "Multiple tone options",
+      "Export to PDF & Word",
+      "Grammar & tone checker"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 8,
+    "name": "Freelancer Portfolio Builder",
+    "description": "Beautiful portfolios for freelancers and creatives.",
+    "price": 24,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "50+ portfolio templates",
+      "Client testimonial system",
+      "Mobile responsive",
+      "Custom domain support"
+    ],
+    "icon": "💼"
+  }
+]
