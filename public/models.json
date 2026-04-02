@@ -8,11 +8,9 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": [
-      "100+ modern templates",
       "ATS optimization",
       "AI content suggestions",
-      "Export to PDF & Word",
-      "Cover letter builder"
+      "Export to PDF & Word"
     ],
     "icon": "📄"
   },
@@ -27,8 +25,6 @@
     "features": [
       "AI headline & summary",
       "Keyword optimization",
-      "Profile strength score",
-      "LinkedIn banner maker",
       "Real-time suggestions"
     ],
     "icon": "🔗"
@@ -44,9 +40,7 @@
     "features": [
       "Everything in Resume Pro",
       "Everything in LinkedIn Optimizer",
-      "Unlimited cover letters",
-      "Job application tracker",
-      "Priority support"
+      "Job application tracker"
     ],
     "icon": "🎯"
   },
@@ -61,9 +55,7 @@
     "features": [
       "Unlimited applications",
       "Status tracking",
-      "Interview reminders",
-      "Application analytics",
-      "Notes & documents"
+      "Interview reminders"
     ],
     "icon": "📊"
   },
@@ -78,9 +70,7 @@
     "features": [
       "1000+ real interview questions",
       "Industry-specific coaching",
-      "Instant feedback & scoring",
-      "Mock video interviews",
-      "Progress tracking"
+      "Mock video interviews"
     ],
     "icon": "🎤"
   },
@@ -95,9 +85,7 @@
     "features": [
       "All tools included",
       "Unlimited usage",
-      "Advanced AI features",
-      "Team sharing (up to 3)",
-      "2 months free"
+      "Advanced AI features"
     ],
     "icon": "🌟"
   },
@@ -112,10 +100,8 @@
     "features": [
       "AI-powered writing",
       "Tailored to job description",
-      "Multiple tone options",
-      "Export to PDF & Word",
-      "Grammar & tone checker"
-    ],
+      "Multiple tone options"
+      ],
     "icon": "✉️"
   },
   {
@@ -129,9 +115,7 @@
     "features": [
       "Drag & drop builder",
       "50+ portfolio templates",
-      "Client testimonial system",
-      "Mobile responsive",
-      "Custom domain support"
+      "Client testimonial system"
     ],
     "icon": "💼"
   }

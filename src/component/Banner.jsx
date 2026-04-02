@@ -57,7 +57,7 @@ const Banner = () => {
                      <p className='text-white/70 text-[24px]'>Premium Tools</p>
                  </div>
                  <div className="text-center">
-                     <h1 className="text-[60px] font-bold text-white">4.9</h1>
+                     <h1 className="text-[60px] font-bold text-white">4.9★</h1>
                      <p className='text-white/70 text-[24px]'>Rating</p>
                  </div>
 

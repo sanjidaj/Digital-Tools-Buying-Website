@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './component/navbar'
 import Banner from './component/Banner'
 import Models from './component/Models'
+import Steps from './component/Steps'
+import Pricing from './component/Pricing'
 
 
 const getModels = async () => {
@@ -20,6 +22,7 @@ function App() {
       <Navbar></Navbar>
       <Banner/>
       <Models modelPromise={modelPromise}/>
+      <Steps/>
       
     </>
   )
