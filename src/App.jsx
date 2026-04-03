@@ -5,6 +5,7 @@ import Banner from './component/Banner'
 import Models from './component/Models'
 import Steps from './component/Steps'
 import Pricing from './component/Pricing'
+import Footer from './component/Footer'
 
 
 const getModels = async () => {
@@ -23,6 +24,8 @@ function App() {
       <Banner/>
       <Models modelPromise={modelPromise}/>
       <Steps/>
+      <Pricing/>
+      <Footer/>
       
     </>
   )
