@@ -6,6 +6,9 @@ import Models from './component/Models'
 import Steps from './component/Steps'
 import Pricing from './component/Pricing'
 import Footer from './component/Footer'
+import Cart from './component/Cart'
+import Tab from './component/Tab'
+import { useState } from 'react'
 
 
 const getModels = async () => {
@@ -17,15 +20,21 @@ const modelPromise  = getModels();
 
 
 function App() {
+   const [activeTab, setActiveTab] = useState('model')
+   const [carts, setCarts] = useState([])
+ 
+  
 
   return (
     <>
       <Navbar></Navbar>
-      <Banner/>
-      <Models modelPromise={modelPromise}/>
-      <Steps/>
-      <Pricing/>
-      <Footer/>
+      {activeTab === "model" && <Banner/>}
+      <Tab activeTab={activeTab} setActiveTab={setActiveTab} />
+      {activeTab === "model" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}/>}
+      {activeTab === "cart" && <Cart carts={carts}/>}
+      {activeTab === "model" && <Steps/>}
+      {activeTab === "model" && <Pricing/>}
+      {activeTab === "model" && <Footer/>}
       
     </>
   )
