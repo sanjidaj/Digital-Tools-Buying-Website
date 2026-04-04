@@ -3,12 +3,12 @@ import React from 'react';
 const Pricing = () => {
     return (
         <>
-           <div className='px-32 py-10 space-y-6'>
+           <div className='md:px-32 px-6 py-10 space-y-6'>
              <div className='items-center text-center'>
-                 <h1 className='text-[48px] font-bold'>Simple, Transparent Pricing</h1>
+                 <h1 className='md:text-[48px] text-[32px] font-bold'>Simple, Transparent Pricing</h1>
                  <p className='text-[#627382]  text-[16px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
              </div>
-             <div className='grid grid-cols-3 gap-4 '>
+             <div className='grid md:grid-cols-3 grid-cols-1 gap-4 '>
                 <div className="card w-78 h-90 bg-[#F2F2F2] shadow-sm flex flex-col">
                     <div className="card-body">
                         <div className="">
@@ -130,8 +130,8 @@ const Pricing = () => {
 
            </div> 
             <div className=' mt-10 bg-linear-to-r from-[#4F39F6] to-[#9514FA]   items-center text-center '>
-                <div className='p-20 space-y-4'>
-                    <h1 className='text-4xl font-bold text-white'>Ready to Transform Your Workflow?</h1>
+                <div className='md:p-20 p-10 space-y-4'>
+                    <h1 className='md:text-[48px] text-[32px] font-bold text-white'>Ready to Transform Your Workflow?</h1>
                     <p className='text-white text-[12px] opacity-75'>Join thousands of professionals who are already using Digitools to work smarter.<br/>Start your free trial today.</p>
                     <div className='flex gap-2 justify-center'>
                         <button className='btn btn-outline text-[#9514FA] bg-white rounded-full'>Explore Products</button>

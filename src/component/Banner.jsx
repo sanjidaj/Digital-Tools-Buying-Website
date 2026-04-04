@@ -1,13 +1,15 @@
 import React from 'react';
-
+import bannerImage from "../assets/banner.png";
+import dot from "../assets/dot.png";
+import play from "../assets/Play.png";
 const Banner = () => {
      return (
         <>
-         <div className="relative min-h-w flex items-center overflow-hidden px-6 md:px-32 py-10 mb-8">
+         <div className="relative min-h-w flex items-center sm:text-center overflow-hidden md:px-32 px-2 py-10 mb-8">
              <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-1 items-center relative z-10">
                  <div className="space-y-4">
                      <div className="inline-flex items-center gap-2 bg-[#E1E7FF]  text-[#9514FA] text-sm font-medium px-5 py-2 rounded-full">
-                         <img src="src\assets\dot.png" alt="" />New: AI-Powered Tools Available
+                         <img src={dot} alt="" />New: AI-Powered Tools Available
                      </div>
 
                      <h1 className="text-4xl lg:text-6xl font-bold">Supercharge Your<br/>Digital Workflow</h1>
@@ -17,13 +19,13 @@ const Banner = () => {
                          <br />Explore Products
                      </p>
 
-                     <div className="flex flex-wrap gap-4 pt-4">
+                     <div className="flex flex-wrap sm:justify-center gap-4 pt-4">
                          <div>
                             <button className="btn  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Explore Products</button>
                          </div>
                          
                          <div>
-                            <button className='btn btn-outline btn-primary rounded-full'><img src="src\assets\Play.png" alt="" />Watch demo</button>
+                            <button className='btn btn-outline btn-primary rounded-full'><img src={play} alt="" />Watch demo</button>
                             </div>
 
 
@@ -36,8 +38,8 @@ const Banner = () => {
 
 
                          <img
-                             className="relative h-130 w-auto object-contain drop-shadow-xl rounded-2xl"
-                             src="src\assets\banner.png"
+                             className="relative md:h-130 h-90 w-auto object-contain drop-shadow-xl rounded-2xl"
+                             src={bannerImage}
                              alt=""
                          />
                      </div>
@@ -46,7 +48,7 @@ const Banner = () => {
 
 
          </div>
-         <div className='flex justify-evenly bg-linear-to-r from-[#4F39F6] to-[#9514FA]  py-10 mb-20'>
+         <div className='grid md:grid-cols-3 sm:grid-cols-1  bg-linear-to-r from-[#4F39F6] to-[#9514FA]  py-10 mb-20'>
 
                  <div className="text-center">
                      <h1 className="text-[60px] font-bold text-white">50K+</h1>

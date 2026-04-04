@@ -1,15 +1,18 @@
 import React from 'react';
+import user from "../assets/user.png";
+import packageImg from "../assets/package.png";
+import rocket from "../assets/rocket.png";
 
 const Steps = () => {
     return (
         <>
             <div className='bg-[#F9FAFC] mt-20 mb-10 '>
-                <div className='px-32 py-15 items-center text-center space-y-4'>
+                <div className='md:px-32 px-8 py-15 items-center text-center space-y-4'>
                     
-                    <h1 className='text-[48px] font-bold'>Get Started in 3 Steps</h1>
+                    <h1 className='md:text-[48px] text-[32px] font-bold'>Get Started in 3 Steps</h1>
                     <p className='text-[#627382]  text-[16px]'>Start using premium digital tools in minutes, not hours.</p>
             
-                <div className='grid grid-cols-3 gap-6 '>
+                <div className='grid md:grid-cols-3 grid-cols-1 gap-6 '>
                     <div className="card bg-base-100 w-75 shadow-sm relative py-4">
 
                        <div className='flex justify-end'>
@@ -17,7 +20,7 @@ const Steps = () => {
                         </div>  
                         <figure className="px-10 pt-10">
                             <img
-                                src="src\assets\user.png"
+                                src={user}
                                 alt=""
                                 className="rounded-full bg-[#E1E7FF] p-4" />
                         </figure>
@@ -33,7 +36,7 @@ const Steps = () => {
                         </div>
                         <figure className="px-10 pt-10">
                             <img
-                                src="src\assets\package.png"
+                                src={packageImg}
                                 alt=""
                                 className="rounded-full bg-[#E1E7FF] p-4" />
                         </figure>
@@ -50,7 +53,7 @@ const Steps = () => {
                         <figure className="px-10 pt-10 ">
                             <img
                                 className="rounded-full bg-[#E1E7FF] p-4 "
-                                src="src\assets\rocket.png"
+                                src={rocket}
                                 alt=""
                              />
                         </figure>

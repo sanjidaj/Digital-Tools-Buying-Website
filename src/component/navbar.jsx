@@ -1,9 +1,11 @@
 import React from 'react';
+import shoppingCart from "../assets/products/shopping-cart.png";
+
 
 const Navbar = ({carts}) => {
     return (
         
-        <div className="navbar px-6 md:px-32 shadow-sm">
+        <div className="navbar md:px-32 px-2 shadow-sm">
             <div className="navbar-start">
                 <h1 className='text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h1>
               
@@ -19,7 +21,7 @@ const Navbar = ({carts}) => {
                 </ul>
             </div>
             <div className="navbar-end gap-3 relative">
-                <img src="src\assets\products\shopping-cart.png" alt="" />
+                <img src={shoppingCart} alt="" />
                  
                 {carts.length > 0 && (
                     <span className="px-1.5 py-0.5 rounded-full text-[10px] font-bold text-white bg-red-500 absolute right-37 -translate-x-1/2 -translate-y-1/2">

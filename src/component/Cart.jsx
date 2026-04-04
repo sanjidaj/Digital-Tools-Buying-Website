@@ -1,5 +1,6 @@
 import React from 'react';
 import { toast } from 'react-toastify';
+import trolley from "../assets/products/trolley.png";
 
 const Cart = ({carts,setCarts}) => {
 
@@ -16,24 +17,24 @@ const Cart = ({carts,setCarts}) => {
     }
 
     return (
-        <div className='px-32 py-5'>
+        <div className='md:px-32 px-6  py-5'>
             <div className='px-20 py-10 border  border-[#F2F2F2] rounded-2xl space-y-4 '>
                 <h1 className='text-2xl font-bold'>Your Cart</h1>
                 {
                     carts.length === 0 ? <>
                     <div className='flex flex-col justify-center text-center items-center'>
-                        <img className='w-15 opacity-50' src="src\assets\products\trolley.png" alt="" />
+                        <img className='w-15 opacity-50' src={trolley} alt="" />
                         <p className='text-xl  text-[#627382] '>Your Cart is Empty</p>
                     </div>
                     </> :
                         <>
                             <div className='space-y-4'>
                                 {
-                                    carts.map(item => <div key={item.id} className='bg-[#F9FAFC] rounded-3xl p-6 flex justify-between items-center '>
-                                        <div className='flex gap-4'>
-                                            <i className='border border-[#F2F2F2] rounded-full p-4'>{item.icon}</i>
+                                    carts.map(item => <div key={item.id} className='bg-[#F9FAFC] rounded-3xl p-6  md:flex md:justify-between  items-center '>
+                                        <div className='md:flex md:gap-4 '>
+                                            <i className='border border-[#F2F2F2] rounded-full md:p-4 p-2'>{item.icon}</i>
                                             <div>
-                                                <h3 className='text-2xl font-bold'>{item.name}</h3>
+                                                <h3 className='md:text-2xl text-[16px] font-bold'>{item.name}</h3>
                                                 <p className='text-xl font-bold opacity-60'>${item.price}</p>
                                             </div>
                                         </div>
