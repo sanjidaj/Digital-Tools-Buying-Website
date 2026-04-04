@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
 const ModelCard = ({model ,carts, setCarts}) => {
-    const [isAdded,setIsAdded] = useState(false)
+    const isAdded = carts.some(item => item.id === model.id);
 
     const handleAddedToCart = () =>{
-        setIsAdded(true)
+        
+
+        const isFound = carts.find(item => item.id === model.id)
+
+        if(isFound){
+            toast.warning("Product already in cart!")
+            return
+        }
+
+
         setCarts([...carts,model])
         toast.success("Added to Cart")
 
@@ -28,7 +36,10 @@ const ModelCard = ({model ,carts, setCarts}) => {
                     <li key={index} className='line-clamp-1'><span className='text-green-500 font-bold'>✓ </span><span className='text-[#627382]  text-[16px]'>{feature}</span></li>
                 ))}
             </ul>
-            <button onClick={handleAddedToCart} className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white btn w-full '>
+            <button onClick={handleAddedToCart} className ={`rounded-full text-white btn w-full ${isAdded ?
+                "bg-green-500"
+                :"bg-linear-to-r from-[#4F39F6] to-[#9514FA] "
+            }`}>
                 {isAdded ? "Added to Cart" : "Buy Now"}
             </button>
         </div>
